@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="" class="logo">
+                <img src="images/fastmath-logo-v4 1.svg" alt="">
+            </a>
+            <div class="right">
+                <ul class="main_menu">
+                    <li class="menu-item-has-children">
+                        <a href="">Courses</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">Articles</a>
+                            </li>
+                            <li>
+                                <a href=""> About About</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Articles</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                </ul>
+                <a href="" class="btn">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5 11.1203C13.1003 11.1203 15.2085 8.65286 15.2085 5.60918C15.2085 1.38843 13.1004 0.0981445 10.5 0.0981445C7.89955 0.0981445 5.79156 1.38843 5.79156 5.60918C5.79162 8.65286 7.8996 11.1203 10.5 11.1203Z"
+                            fill="white" />
+                        <path
+                            d="M20.8973 19.232L18.5218 13.8808C18.4132 13.6359 18.2223 13.4329 17.9847 13.3092L14.2981 11.3901C14.2168 11.3478 14.1184 11.356 14.0453 11.4114C13.0026 12.2 11.7766 12.6169 10.5001 12.6169C9.22327 12.6169 7.99739 12.2 6.95469 11.4114C6.8814 11.356 6.78296 11.3478 6.70167 11.3901L3.01532 13.3092C2.77764 13.4329 2.58697 13.6358 2.47821 13.8808L0.10273 19.232C-0.0610452 19.6009 -0.0274792 20.023 0.192547 20.3614C0.41247 20.6997 0.784672 20.9016 1.18823 20.9016H19.8117C20.2153 20.9016 20.5876 20.6996 20.8075 20.3614C21.0274 20.023 21.0611 19.6008 20.8973 19.232Z"
+                            fill="white" />
+                    </svg>
+
+                    login
+                </a>
+            </div>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="submitting">
+            <div class="container">
+                <span><svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="68"
+                            height="68">
+                            <rect width="68" height="68" fill="url(#pattern0)" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <rect x="-5" y="-3" width="83" height="83" fill="#DC233E" />
+                        </g>
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.01)" />
+                            </pattern>
+                            <image id="image0" width="100" height="100"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg></span>
+                <h1>Thank you for submitting your additional information.</h1>
+                <p>Identity Verification Process</p>
+                <a href="" class="btn">Back to home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="top">
+                <a href="" class="logo">
+                    <img src="images/fastmath-logo-v4 1.png" alt="">
+                </a>
+                <div class="footer_form">
+                    <form action="">
+                        <p>
+                            <label for="">
+                                <span>
+                                    Name
+                                </span>
+                                <input type="text" placeholder="User Name">
+                            </label>
+                        </p>
+                        <p>
+                            <label for="">
+                                <span>
+                                    Email
+                                </span>
+                                <input type="text" placeholder="Email">
+                            </label>
+                        </p>
+                        <p>
+                            <input type="submit" value="get fastmath formulas sheet for free">
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="left">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor, lobortis orci mauris eget enim
+                        sagittis tristique.Est vitae elit commodo massa tristique nisl, vitae luctus ut.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor, lobortis orci mauris eget enim
+                        sagittis tristique.Est vitae elit commodo massa tristique nisl, vitae luctus ut.
+                    </p>
+                </div>
+                <div class="column">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li>
+                            <a href="">Free Interview</a>
+                        </li>
+                        <li>
+                            <a href="">Interview</a>
+                        </li>
+                        <li>
+                            <a href="">Advanced case</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>About</h4>
+                    <ul>
+                        <li>
+                            <a href="">Articles</a>
+                        </li>
+                        <li>
+                            <a href="">Schools & Universities
+                                page</a>
+                        </li>
+                        <li>
+                            <a href="">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="">email</a>
+                        </li>
+                        <li>
+                            <a href="">phone</a>
+                        </li>
+                        <li>
+                            <a href="">phone</a>
+                        </li>
+                    </ul>
+                    <div class="socials">
+                        <a href="">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.4844 2.94632C20.2792 2.39021 19.9518 1.88684 19.5263 1.47367C19.1132 1.04825 18.6101 0.72084 18.0537 0.515615C17.6024 0.34034 16.9244 0.131712 15.6757 0.0748748C14.3249 0.0132733 13.9199 0 10.5002 0C7.08009 0 6.67509 0.0129329 5.32462 0.0745345C4.07591 0.131712 3.39761 0.34034 2.94666 0.515615C2.39021 0.72084 1.88684 1.04825 1.47401 1.47367C1.04859 1.88684 0.72118 2.38987 0.515615 2.94632C0.34034 3.39761 0.131712 4.07591 0.0748748 5.32462C0.0132733 6.67509 0 7.08009 0 10.5002C0 13.9199 0.0132733 14.3249 0.0748748 15.6757C0.131712 16.9244 0.34034 17.6024 0.515615 18.0537C0.72118 18.6101 1.04825 19.1132 1.47367 19.5263C1.88684 19.9518 2.38987 20.2792 2.94632 20.4844C3.39761 20.66 4.07591 20.8686 5.32462 20.9255C6.67509 20.9871 7.07975 21 10.4998 21C13.9202 21 14.3253 20.9871 15.6754 20.9255C16.9241 20.8686 17.6024 20.66 18.0537 20.4844C19.1707 20.0535 20.0535 19.1707 20.4844 18.0537C20.6597 17.6024 20.8683 16.9244 20.9255 15.6757C20.9871 14.3249 21 13.9199 21 10.5002C21 7.08009 20.9871 6.67509 20.9255 5.32462C20.8686 4.07591 20.66 3.39761 20.4844 2.94632ZM10.5002 17.0766C6.86772 17.0766 3.9231 14.1323 3.9231 10.4998C3.9231 6.86738 6.86772 3.9231 10.5002 3.9231C14.1323 3.9231 17.0769 6.86738 17.0769 10.4998C17.0769 14.1323 14.1323 17.0766 10.5002 17.0766ZM17.3369 5.20005C16.4881 5.20005 15.7999 4.51189 15.7999 3.66308C15.7999 2.81427 16.4881 2.1261 17.3369 2.1261C18.1857 2.1261 18.8739 2.81427 18.8739 3.66308C18.8736 4.51189 18.1857 5.20005 17.3369 5.20005Z"
+                                    fill="#fff" />
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20.4844 2.94632C20.2792 2.39021 19.9518 1.88684 19.5263 1.47367C19.1132 1.04825 18.6101 0.72084 18.0537 0.515615C17.6024 0.34034 16.9244 0.131712 15.6757 0.0748748C14.3249 0.0132733 13.9199 0 10.5002 0C7.08009 0 6.67509 0.0129329 5.32462 0.0745345C4.07591 0.131712 3.39761 0.34034 2.94666 0.515615C2.39021 0.72084 1.88684 1.04825 1.47401 1.47367C1.04859 1.88684 0.72118 2.38987 0.515615 2.94632C0.34034 3.39761 0.131712 4.07591 0.0748748 5.32462C0.0132733 6.67509 0 7.08009 0 10.5002C0 13.9199 0.0132733 14.3249 0.0748748 15.6757C0.131712 16.9244 0.34034 17.6024 0.515615 18.0537C0.72118 18.6101 1.04825 19.1132 1.47367 19.5263C1.88684 19.9518 2.38987 20.2792 2.94632 20.4844C3.39761 20.66 4.07591 20.8686 5.32462 20.9255C6.67509 20.9871 7.07975 21 10.4998 21C13.9202 21 14.3253 20.9871 15.6754 20.9255C16.9241 20.8686 17.6024 20.66 18.0537 20.4844C19.1707 20.0535 20.0535 19.1707 20.4844 18.0537C20.6597 17.6024 20.8683 16.9244 20.9255 15.6757C20.9871 14.3249 21 13.9199 21 10.5002C21 7.08009 20.9871 6.67509 20.9255 5.32462C20.8686 4.07591 20.66 3.39761 20.4844 2.94632ZM8.45396 20.9549V13.891H5.5762V10.498H8.45396V8.00119C8.45396 5.10552 10.2013 3.52948 12.7545 3.52948C13.9771 3.52948 15.0281 3.6217 15.3344 3.66285V6.6892H13.5738C12.1848 6.6892 11.9159 7.35708 11.9159 8.33699V10.498H15.2371L14.8043 13.891H11.9159V20.9549H8.45396Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <a href="">
+                        Privacy Policy
+                    </a>
+                    <a href="">
+                        Privacy Policy
+                    </a>
+                </div>
+                <div class="right">
+                    <p>
+                        Copyright 2021, Fast Education Group, LLC. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
